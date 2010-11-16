@@ -2,41 +2,6 @@
 <html>
 <head>
 	<title>KRAZY TRICK MASTER HTML</title>
-	<script src="http://use.typekit.com/tud3dqa.js"></script>
-	<script >try{Typekit.load();}catch(e){}</script>
-	<script src="jquery-1.4.4.js"></script>
-	<script src="color.js"></script>
-	<script src="textshadow.js"></script>
-	<script src="easing.js"></script>
-	
-	<script>
-		var colornames = [ 'aliceblue', 'antiquewhite', 'aqua', 'aquamarine', 'azure', 'beige', 'bisque', 'black', 'blanchedalmond', 'blue', 'blueviolet', 'brown', 'burlywood', 'cadetblue', 'chartreuse', 'chocolate', 'coral', 'cornflowerblue', 'cornsilk', 'crimson', 'cyan', 'darkblue', 'darkcyan', 'darkgoldenrod', 'darkgray', 'darkgreen', 'darkgrey', 'darkkhaki', 'darkmagenta', 'darkolivegreen', 'darkorange', 'darkorchid', 'darkred', 'darksalmon', 'darkseagreen', 'darkslateblue', 'darkslategray', 'darkslategrey', 'darkturquoise', 'darkviolet', 'deeppink', 'deepskyblue', 'dimgray', 'dimgrey', 'dodgerblue', 'firebrick', 'floralwhite', 'forestgreen', 'fuchsia', 'gainsboro', 'ghostwhite', 'gold', 'goldenrod', 'gray', 'green', 'greenyellow', 'grey', 'honeydew', 'hotpink', 'indianred', 'indigo', 'ivory', 'khaki', 'lavender', 'lavenderblush', 'lawngreen', 'lemonchiffon', 'lightblue', 'lightcoral', 'lightcyan', 'lightgoldenrodyellow', 'lightgray', 'lightgreen', 'lightgrey', 'lightpink', 'lightsalmon', 'lightseagreen', 'lightskyblue', 'lightslategray', 'lightslategrey', 'lightsteelblue', 'lightyellow', 'lime', 'limegreen', 'linen', 'magenta', 'maroon', 'mediumaquamarine', 'mediumblue', 'mediumorchid', 'mediumpurple', 'mediumseagreen', 'mediumslateblue', 'mediumspringgreen', 'mediumturquoise', 'mediumvioletred', 'midnightblue', 'mintcream', 'mistyrose', 'moccasin', 'navajowhite', 'navy', 'oldlace', 'olive', 'olivedrab', 'orange', 'orangered', 'orchid', 'palegoldenrod', 'palegreen', 'paleturquoise', 'palevioletred', 'papayawhip', 'peachpuff', 'peru', 'pink', 'plum', 'powderblue', 'purple', 'red', 'rosybrown', 'royalblue', 'saddlebrown', 'salmon', 'sandybrown', 'seagreen', 'seashell', 'sienna', 'silver', 'skyblue', 'slateblue', 'slategray', 'slategrey', 'snow', 'springgreen', 'steelblue', 'tan', 'teal', 'thistle', 'tomato', 'turquoise', 'violet', 'wheat', 'white', 'whitesmoke', 'yellow', 'yellowgreen' ];
-		
-		function rand(min, max) {
-			return Math.floor(Math.random() * (max - min)) + min;
-		}
-	
-		$(function() {
-			var AWESOME = $('body');
-			
-			setInterval(function() {
-				AWESOME.animate({
-					color:				colornames[rand(0, 147)],
-					backgroundColor:	colornames[rand(0, 147)],
-					textShadowColor:	colornames[rand(0, 147)],
-					textShadowX:		rand(-150, 150),
-					textShadowY:		rand(-150, 150),
-					textShadowBlur:		rand(0, 50)
-				}, {
-					duration: 500, 
-					specialEasing: {
-						textShadowX: 'easeOutBack',
-						textShadowY: 'easeOutBack'
-					}
-				});
-			}, 500);
-		});
-	</script>
 	<style>
 		body {
 			background: aquamarine;
@@ -116,5 +81,42 @@
 		<source src="JAMZ.mp3" />
 		<source src="JAMZ.wav" />
 	</audio>
+	
+	
+	<script src="http://use.typekit.com/tud3dqa.js"></script>
+	<script >try{Typekit.load();}catch(e){}</script>
+	<script src="jquery-1.4.4.js"></script>
+	<script src="color.js"></script>
+	<script src="textshadow.js"></script>
+	<script src="easing.js"></script>
+	
+	<script>
+		var colornames = [ 'aliceblue', 'antiquewhite', 'aqua', 'aquamarine', 'azure', 'beige', 'bisque', 'black', 'blanchedalmond', 'blue', 'blueviolet', 'brown', 'burlywood', 'cadetblue', 'chartreuse', 'chocolate', 'coral', 'cornflowerblue', 'cornsilk', 'crimson', 'cyan', 'darkblue', 'darkcyan', 'darkgoldenrod', 'darkgray', 'darkgreen', 'darkgrey', 'darkkhaki', 'darkmagenta', 'darkolivegreen', 'darkorange', 'darkorchid', 'darkred', 'darksalmon', 'darkseagreen', 'darkslateblue', 'darkslategray', 'darkslategrey', 'darkturquoise', 'darkviolet', 'deeppink', 'deepskyblue', 'dimgray', 'dimgrey', 'dodgerblue', 'firebrick', 'floralwhite', 'forestgreen', 'fuchsia', 'gainsboro', 'ghostwhite', 'gold', 'goldenrod', 'gray', 'green', 'greenyellow', 'grey', 'honeydew', 'hotpink', 'indianred', 'indigo', 'ivory', 'khaki', 'lavender', 'lavenderblush', 'lawngreen', 'lemonchiffon', 'lightblue', 'lightcoral', 'lightcyan', 'lightgoldenrodyellow', 'lightgray', 'lightgreen', 'lightgrey', 'lightpink', 'lightsalmon', 'lightseagreen', 'lightskyblue', 'lightslategray', 'lightslategrey', 'lightsteelblue', 'lightyellow', 'lime', 'limegreen', 'linen', 'magenta', 'maroon', 'mediumaquamarine', 'mediumblue', 'mediumorchid', 'mediumpurple', 'mediumseagreen', 'mediumslateblue', 'mediumspringgreen', 'mediumturquoise', 'mediumvioletred', 'midnightblue', 'mintcream', 'mistyrose', 'moccasin', 'navajowhite', 'navy', 'oldlace', 'olive', 'olivedrab', 'orange', 'orangered', 'orchid', 'palegoldenrod', 'palegreen', 'paleturquoise', 'palevioletred', 'papayawhip', 'peachpuff', 'peru', 'pink', 'plum', 'powderblue', 'purple', 'red', 'rosybrown', 'royalblue', 'saddlebrown', 'salmon', 'sandybrown', 'seagreen', 'seashell', 'sienna', 'silver', 'skyblue', 'slateblue', 'slategray', 'slategrey', 'snow', 'springgreen', 'steelblue', 'tan', 'teal', 'thistle', 'tomato', 'turquoise', 'violet', 'wheat', 'white', 'whitesmoke', 'yellow', 'yellowgreen' ];
+		
+		function rand(min, max) {
+			return Math.floor(Math.random() * (max - min)) + min;
+		}
+	
+		$(function() {
+			var AWESOME = $('body');
+			
+			setInterval(function() {
+				AWESOME.animate({
+					color:				colornames[rand(0, 147)],
+					backgroundColor:	colornames[rand(0, 147)],
+					textShadowColor:	colornames[rand(0, 147)],
+					textShadowX:		rand(-150, 150),
+					textShadowY:		rand(-150, 150),
+					textShadowBlur:		rand(0, 50)
+				}, {
+					duration: 500, 
+					specialEasing: {
+						textShadowX: 'easeOutBack',
+						textShadowY: 'easeOutBack'
+					}
+				});
+			}, 500);
+		});
+	</script>
 </body>
 </html>
